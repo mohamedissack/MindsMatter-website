@@ -2,7 +2,7 @@
 
 
 ## Description
-This is a mental check website where a user is able to test their mental state and seek 
+This is a guidance website where a user is able to test their mental state and seek 
 counselling in regard to what they may be going through. You are able to be linked to 
 professionals and helped.
 
