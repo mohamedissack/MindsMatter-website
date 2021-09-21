@@ -145,4 +145,8 @@ ul li a {
     height: 40vh;
     margin: 20px 0px 0px 10px;
   }
+
+  .services {
+    height: 55vh;
+  }
 }
