@@ -10,15 +10,28 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="/css/css2/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Account</title>
 </head>
 
 <body>
-    <div class="container bg-success text-black">
-        <h2>Login HERE</h2>
-        <form>
-            <div class="col-md-4 offset-mt-4">
+
+    <div class="container nav">
+        <div class="container nav-wrapper d-flex justify-content-between">
+            <div class="left-nav">
+                <h4 class="mt-4 h-minds"><span class="minds">Minds</span>Matter</h4>
+            </div>
+            <div class="right-nav m-4">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#"><button class="btn">Psychology Check</button></a></li>
+                </ul>
+            </div>
+        </div>
+            <form> 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -35,9 +48,11 @@
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
-        <p>Dont have an Account <a href="/Account/Register.html"><strong>Register</strong></a></p>
+            </form>
+        </div>
+
+    </div>
+
     </div>
 
 </body>
