@@ -1,8 +1,4 @@
-.cart{
-    
-    /* justify-content: center;
-    align-items: center;
-} */
+
 .nav {
     background-color: #2A7EF9;
     height: 8vh;
@@ -45,4 +41,11 @@
     .left-nav, .right-nav ul {
       margin: 10px 0px 0px 0px;
     }
+  }
+  body {
+      background-image: url(/Account/imag/background.jpg) 
+  }
+  image{
+      height: 200px;
+      width: 200px;
   }
