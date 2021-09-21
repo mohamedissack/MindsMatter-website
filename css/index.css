@@ -20,7 +20,7 @@ body{
   font-family: 'Kalam', cursive;
 }
 
-ul li{
+.right-nav ul li{
   list-style-type: none;
   display: inline; 
 }
@@ -62,9 +62,10 @@ ul li a {
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   height: 35vh;
+  margin-top: 80px;
 }
 
-.about-h3, .p-section {
+.about-h3, .p-section, .services-h3 {
   font-family: 'Kalam', cursive;
 }
 .left-about {
@@ -86,6 +87,24 @@ ul li a {
   margin: 30px 0px 0px 40px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+.services {
+  height: 35vh;
+  margin: 80px 0px 0px;
+  background-color: #E8E6E6;
+}
+
+.services ul {
+  list-style-type: "→ ";
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+.services-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
 
 
 @media screen and (max-width:1366px){
