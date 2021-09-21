@@ -1,0 +1,57 @@
+.nav {
+    background-color: #2A7EF9;
+    height: 8vh;
+}
+
+.h-minds {
+    color: #9E0909;
+}
+
+.minds {
+    color: #FFFF0F
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFF0F;
+    margin: 0px 0px 0px 30px;
+}
+
+.right-nav button {
+    background-color: #9E0909;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFFF0F;
+}
+
+@media screen and (max-width:1366px) {
+    .nav {
+        height: 14vh;
+    }
+
+    ul li a {
+        margin: 0px 0px 0px 30px;
+    }
+
+    .left-nav,
+    .right-nav ul {
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+body {
+    background-image: url('/imag/gc-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+image {
+    height: 200px;
+    width: 200px;
+}
