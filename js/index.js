@@ -4,9 +4,9 @@ var time = 1000;
 
 
 //container list
-containers[0] = 'item-one'; 
-containers[1] = 'item-two';
-containers[0] = 'item-3';  
+containers[0] = '#item-one'; 
+containers[1] = '#item-two';
+containers[0] = '#item-3';  
 
 //change container
 function changeContainer() {

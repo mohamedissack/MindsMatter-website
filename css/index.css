@@ -107,6 +107,10 @@ ul a{
   color: #000000;
 }
 
+a {
+  text-decoration: none;
+}
+
 .services ul {
   list-style-type: "→ ";
   list-style-position: outside;
@@ -187,16 +191,16 @@ ul a{
   }
 }
 
-/* i {
+i {
 
   background-color: #6F6F6F;
   padding: 1.4rem
-} */
+}
 
 @media(max-width:767px) {
-  /* i {
+  i {
       padding: 0.8rem
-  } */
+  }
 }
 
 .carousel-control-prev {
