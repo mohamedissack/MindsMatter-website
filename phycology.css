@@ -1,5 +1,5 @@
- *{
-     background-image: url("/assets/gw.jpg");
+ .body{
+background-image: url("/assets/gw.jpg");
  }
  .form{
     background-position: center center;
@@ -50,3 +50,79 @@
         margin-bottom: 20px;
     }
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .about{
+      background-image: url("/assets/gw.jpg");
+  }
+  
+  .nav {
+    background-color: #2A7EF9;
+    height: 8vh;
+  }
+  
+  .h-minds {
+    color: #A80707;
+    
+  }
+  .minds {
+    color: #FFFFFF; 
+  }
+  
+  ul li{
+    list-style-type: none;
+    display: inline; 
+  }
+  
+  ul li a {
+    text-decoration: none;
+    /* color: #FFFF0F; */
+    color: #FFFFFF;
+    margin: 0px 0px 0px 30px;
+    font-size: 15px;
+  }
+  
+  .right-nav button {
+    background-color: #6F6F6F;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFFFFF;
+  }
+  
+  
+  
+  .hero-cont {
+    padding: 220px 0px 0px;
+    color: #FFFFFF;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width:1366px){
+    .nav {
+      height: 14vh;
+    }
+    
+    ul li a {
+      margin: 0px 0px 0px 30px;
+    }
+  
+    .left-nav, .right-nav ul {
+      margin: 10px 0px 0px 0px;
+    }
+  
+    .hero-section {
+      height: 60vh;
+    }
+    
+    .hero-cont {
+      padding: 160px 0px 0px;
+    }
+  }
