@@ -45,11 +45,11 @@ ul li a {
     }
 }
 
-body {
+.login {
     /* background-image: url('/Account/imag/gc-bg.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
-}
+    
 
 image {
     height: 200px;
