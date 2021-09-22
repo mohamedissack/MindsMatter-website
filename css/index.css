@@ -68,6 +68,14 @@ ul li a {
 .about-h3, .p-section, .services-h3, .test-h {
   font-family: 'Kalam', cursive;
 }
+
+.p-section {
+  font-size: 18px;
+}
+.about-p {
+  font-size: 15px;
+}
+
 .left-about {
   margin: 40px 0px 0px 150px;
 }
@@ -105,10 +113,25 @@ ul li a {
   grid-template-columns: repeat(2,1fr);
 }
 
+#fname, #email, #textArea {
+  background: transparent;
+  
+  /* padding: 0px 10px 0px; */
+}
+
+#fname::placeholder, #email::placeholder,
+#textArea::placeholder {
+  color: white;
+  opacity: 1;
+}
+
 #demo {
   background: linear-gradient(112deg, #ffffff 50%, #d6d6d6 50%);
   max-width: 900px;
-  margin: auto
+  margin: auto;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  /* border: 1px solid #000000; */
 }
 
 .carousel-caption {
@@ -161,16 +184,16 @@ ul li a {
   }
 }
 
-i {
+/* i {
 
   background-color: #6F6F6F;
   padding: 1.4rem
-}
+} */
 
 @media(max-width:767px) {
-  i {
+  /* i {
       padding: 0.8rem
-  }
+  } */
 }
 
 .carousel-control-prev {
@@ -197,7 +220,7 @@ i {
 .footer-wrapper {
   display: grid;
   /* grid-template-columns: repeat(3,1fr); */
-  grid-template-columns: 360px 380px 1fr;
+  grid-template-columns: 360px 360px 1fr;
 } 
 .footer-center {
   display: grid;
@@ -207,12 +230,25 @@ i {
 .f-left ul li {
   list-style-type: none;
 }
-/* .f-left ul li a {
-  color: #000000;
-} */
 
+.f-left ul li a{
+  color: #000000;
+}
+.f-left ul li a:hover  {
+  color: #FFFFFF;
+}
 .wrapper {
   background-color: #078EB2;
+}
+
+.contact-wrapper {
+  /* border: 1px solid #ffffff; */
+  border-radius: 5px;
+  height: 22vh;
+}
+
+.submit {
+  margin: 0px 0px 0px 8px;
 }
 
 
@@ -238,7 +274,7 @@ i {
   }
 
   .about {
-    height: 50vh;
+    height: 55vh;
   }
 
   .about-h3, .p-section {
@@ -252,15 +288,26 @@ i {
   .about-img img {
     width: 70%;
     height: 40vh;
-    margin: 20px 0px 0px 10px;
+    margin: 28px 0px 0px 10px;
   }
 
+  /* .explore-btn {
+    margin: 0px 0px 0px;
+  } */
   .services {
     height: 55vh;
   }
 
   .footer {
-    height: 38vh;
+    height: 46vh;
     margin: 80px 0px 0px;
+  }
+
+  .footer-wrapper {
+    grid-template-columns: 320px 320px 1fr;
+  } 
+
+  .contact-wrapper {
+    height: 27vh;
   }
 }
