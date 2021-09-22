@@ -102,6 +102,11 @@ ul li a {
   background-color: #E8E6E6;
 }
 
+ul a{
+  text-decoration: none;
+  color: #000000;
+}
+
 .services ul {
   list-style-type: "→ ";
   list-style-position: outside;
@@ -115,8 +120,6 @@ ul li a {
 
 #fname, #email, #textArea {
   background: transparent;
-  
-  /* padding: 0px 10px 0px; */
 }
 
 #fname::placeholder, #email::placeholder,
@@ -210,7 +213,6 @@ ul li a {
   opacity: unset
 }
 
-
 .footer {
   background-color: #34A3C1;
   height: 30vh;
@@ -219,7 +221,6 @@ ul li a {
 
 .footer-wrapper {
   display: grid;
-  /* grid-template-columns: repeat(3,1fr); */
   grid-template-columns: 360px 360px 1fr;
 } 
 .footer-center {
@@ -291,9 +292,6 @@ ul li a {
     margin: 28px 0px 0px 10px;
   }
 
-  /* .explore-btn {
-    margin: 0px 0px 0px;
-  } */
   .services {
     height: 55vh;
   }
