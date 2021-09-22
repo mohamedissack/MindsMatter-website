@@ -142,7 +142,6 @@ a {
   margin: auto;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
-  /* border: 1px solid #000000; */
 }
 
 .carousel-caption {
@@ -154,7 +153,8 @@ a {
   font-size: 1.0rem;
   font-style: italic;
   font-weight: bold;
-  line-height: 2rem
+  line-height: 2rem;
+  animation: fadeVisibility 1.0s;
 }
 
 @media(max-width:767px) {
@@ -196,7 +196,6 @@ a {
 }
 
 i {
-
   background-color: #6F6F6F;
   padding: 1.4rem
 }
@@ -369,13 +368,22 @@ i {
 
 >>>>>>> ec4fccbe993e2826744b696008e238b3d61b4fc3
 .contact-wrapper {
-  /* border: 1px solid #ffffff; */
   border-radius: 5px;
   height: 22vh;
 }
 
 .submit {
   margin: 0px 0px 0px 8px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
 }
 
 
