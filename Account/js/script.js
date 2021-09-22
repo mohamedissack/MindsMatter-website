@@ -1,20 +1,20 @@
-// function myfunction() {
-//     var inputtedusername = document.getElementById("name").value;
-//     // localStorage.setItem("name", input.val());
-//     var inputuseremail= document.getElementById("exampleInputEmail1").value;
-//     // localStorage.setItem("exampleInputEmail1", input.val());
-//     var inputpassword = document.getElementById("password").value;
-//     // localStorage.setItem("exampleInputPassword1", input.val());
-//     var confirm = document.getElementById("confirmpassword").value;
-//     // localStorage.setItem("exampleInputpassword1", input.val());
+function myfunction() {
+    var inputtedusername = document.getElementById("name").value;
+    localStorage.setItem("name", inputtedusername);
+    var inputuseremail= document.getElementById("exampleInputEmail1").value;
+    localStorage.setItem("exampleInputEmail1", inputuseremail);
+    var inputpassword = document.getElementById("password").value;
+    localStorage.setItem("exampleInputPassword1", inputpassword);
+    var confirm = document.getElementById("confirmpassword").value;
+    localStorage.setItem("exampleInputpassword1", confirm);
 
-//     console.log(inputtedusername);
-//     console.log(inputuseremail);
-//     console.log(inputpassword);
-//     console.log(confirm);
+    console.log(inputtedusername);
+    console.log(inputuseremail);
+    console.log(inputpassword);
+    console.log(confirm);
 
 
-// }
+}
 
 
 
@@ -28,5 +28,5 @@
 // }
 // console.log(inputtedusername);
 
-var inputtedname = document.getElementById("name");
-console.log(inputtedname);
+// var inputtedname = document.getElementById("name");
+// console.log(inputtedname);
