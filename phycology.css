@@ -1,0 +1,10 @@
+.form{
+     background-image: url("Images/pizza6.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+}
