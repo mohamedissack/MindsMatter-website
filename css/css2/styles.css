@@ -30,8 +30,16 @@ ul li a {
     color: #FFFF0F;
 }
 
-.register {
+.register{
   margin: 0px 0px 336px;
+}
+
+.login {
+  margin: auto;
+}
+
+.login-wrapper {
+  margin: 516px 0px 0px;
 }
 
 @media screen and (max-width:1366px) {
@@ -46,6 +54,13 @@ ul li a {
     .left-nav,
     .right-nav ul {
         margin: 10px 0px 0px 0px;
+    }
+    .login-wrapper {
+      margin: 460px 0px 0px;
+    }
+
+    .register{
+      margin: 0px 0px 276px;
     }
 }
 
