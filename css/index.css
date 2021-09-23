@@ -107,13 +107,10 @@ ul a{
   color: #000000;
 }
 
-<<<<<<< HEAD
 a {
   text-decoration: none;
 }
 
-=======
->>>>>>> ec4fccbe993e2826744b696008e238b3d61b4fc3
 .services ul {
   list-style-type: "→ ";
   list-style-position: outside;
@@ -133,7 +130,6 @@ a {
 #textArea::placeholder {
   color: white;
   opacity: 1;
-<<<<<<< HEAD
 }
 
 .cont1 {
@@ -257,94 +253,6 @@ a i {
   background-color: #078EB2;
 }
 
-=======
-}
-
-#demo {
-  background: linear-gradient(112deg, #ffffff 50%, #d6d6d6 50%);
-  max-width: 900px;
-  margin: auto;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  /* border: 1px solid #000000; */
-}
-
-.carousel-caption {
-  position: initial;
-  z-index: 10;
-  padding: 5rem 8rem;
-  color: rgba(78, 77, 77, 0.856);
-  text-align: center;
-  font-size: 1.0rem;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 2rem
-}
-
-@media(max-width:767px) {
-  .carousel-caption {
-      padding: 3rem 2rem;
-      font-size: 0.7rem;
-      font-style: italic;
-      font-weight: bold;
-      line-height: 1.5rem
-  }
-}
-
-.carousel-caption img {
-  width: 6rem;
-  border-radius: 5rem;
-  margin-top: 2rem
-}
-
-@media(max-width:767px) {
-  .carousel-caption img {
-      width: 4rem;
-      border-radius: 4rem;
-      margin-top: 1rem
-  }
-}
-
-#image-caption {
-  font-style: normal;
-  font-size: 1rem;
-  margin-top: 0.5rem
-}
-
-@media(max-width:767px) {
-  #image-caption {
-      font-style: normal;
-      font-size: 0.6rem;
-      margin-top: 0.5rem
-  }
-}
-
-/* i {
-
-  background-color: #6F6F6F;
-  padding: 1.4rem
-} */
-
-@media(max-width:767px) {
-  /* i {
-      padding: 0.8rem
-  } */
-}
-
-.carousel-control-prev {
-  justify-content: flex-start
-}
-
-.carousel-control-next {
-  justify-content: flex-end
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  transition: none;
-  opacity: unset
-}
-
 .footer {
   background-color: #34A3C1;
   height: 30vh;
@@ -374,7 +282,8 @@ a i {
   background-color: #078EB2;
 }
 
->>>>>>> ec4fccbe993e2826744b696008e238b3d61b4fc3
+
+
 .contact-wrapper {
   border-radius: 5px;
   height: 22vh;
