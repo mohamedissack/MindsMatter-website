@@ -1,3 +1,7 @@
+.con{
+    text-align: center;
+    color: aqua;
+}
  .body{
 background-image: url("/assets/gw.jpg");
  }
@@ -126,4 +130,19 @@ background-image: url("/assets/gw.jpg");
     .hero-cont {
       padding: 160px 0px 0px;
     }
+ ft-phycology
+  }
+  #form{
+    background-image:url("/assets/test.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+    margin-top:50px;
+}
+#submit{
+    margin-top:50px;
+    text-align:center;
+    color:blue;
+}
   }f
+ master
