@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,6 +11,7 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- nav-section start -->
     <div class="container-fluid nav sticky-top">
       <div class="container nav-wrapper d-flex justify-content-between">
         <div class="left-nav">
@@ -19,16 +21,17 @@
           <ul class="">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="index.html#about">Services</a></li>
+            <li><a href="css/blog.html">Blog</a></li>
+            <li><a href="Account/login.html">Login</a></li>
             <li>
-              <a href="#"><button class="btn">Psychology Check</button></a>
+              <a href="phycology.html"><button class="btn">Psychology Check</button></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
+    <!-- nav-start end -->
 
     <div class="container-fluid hero-section">
       <div class="hero-cont">
@@ -54,7 +57,7 @@
         <button class="btn mt-3 right explore-btn">Explore</button>
       </div>
       <div class="right-about">
-        <div class="about-img"><img src="../assets/img6.jpg" alt="..." /></div>
+        <div class="about-img"><img src="./assets/img6.jpg" alt="..." /></div>
       </div>
     </div>
 
@@ -81,18 +84,14 @@
             <a href="#"><li>Postpartum Depression</li></a>
             <a href="#"><li>Marriage and Divorce</li></a>
             <a href="#"><li>Alcohol and drugs addiction</li></a>
-            <a href="#"><li>Eating and sleep disorders</li></a>
-            
-            
+            <a href="#"><li>Eating and sleep disorders</li></a>  
           </ul>
         </div>
       </div>
     </div>
 
-    <!-- <div class="container testimonial">
-    <h3 class="text-center pt-5 test-h">Testimonials</h3>
-  </div> -->
 
+    <!-- carousel slider -->
     <div class="container testimonial">
       <h3 class="text-center pt-5 test-h">Testimonials</h3>
       <div id="demo" class="carousel slide" data-ride="carousel">
@@ -112,7 +111,7 @@
             <div class="carousel-caption" id="item-two">
               <p>
                 "I struggled to deal with grief and i can't thank MindsMatter for helding 
-                my hand during this moment. I was helpless now I can see light"
+                my hand during this moment. I was helpless now I see light"
               </p>
               <img src="assets/img8.jpeg" class="img-fluid" />
               <div id="image-caption">Mercy Jane</div>
@@ -158,11 +157,11 @@
           <div class="footer-center">
             <div class="f-left mt-2">
               <ul>
-                <li><a href="#">About US</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Testimonials</a></li>
+                <li><a href="index.html#about">About US</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="css/blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
               </ul>
             </div>
             <div class="f-right mt-3">
@@ -233,6 +232,7 @@
       </div>
     </div>
     <!-- copyright end -->
+    <!-- footer end -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>

@@ -1,0 +1,237 @@
+.nav {
+    background-color: #2A7EF9;
+    height: 8vh;
+}
+
+.h-minds {
+    color: #9E0909;
+}
+
+.minds {
+    color: #FFFF0F
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFF0F;
+    margin: 0px 0px 0px 30px;
+}
+
+.right-nav button {
+    background-color: #9E0909;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFFF0F;
+}
+
+.register{
+  margin: 0px 0px 336px;
+}
+
+.login {
+  margin: auto;
+}
+
+.login-wrapper {
+  margin: 516px 0px 0px;
+}
+
+@media screen and (max-width:1366px) {
+    .nav {
+        height: 14vh;
+    }
+
+    ul li a {
+        margin: 0px 0px 0px 30px;
+    }
+
+    .left-nav,
+    .right-nav ul {
+        margin: 10px 0px 0px 0px;
+    }
+    .login-wrapper {
+      margin: 460px 0px 0px;
+    }
+
+    .register{
+      margin: 0px 0px 276px;
+    }
+}
+
+body {
+    /* background-image: url('/Account/imag/gc-bg.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+image {
+    height: 200px;
+    width: 200px;
+}
+.footer {
+    background-color: #34A3C1;
+    height: 30vh;
+    margin: 80px 0px 0px;
+  }
+  
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 360px 360px 1fr;
+  } 
+  .footer-center {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .f-left ul li {
+    list-style-type: none;
+  }
+  
+  .f-left ul li a{
+    color: #000000;
+  }
+  .f-left ul li a:hover  {
+    color: #FFFFFF;
+  }
+  .wrapper {
+    background-color: #078EB2;
+  }
+  
+  .contact-wrapper {
+    /* border: 1px solid #ffffff; */
+    border-radius: 5px;
+    height: 22vh;
+  }
+  
+  .submit {
+    margin: 0px 0px 0px 8px;
+  }
+  
+  
+  @media screen and (max-width:1366px){
+    .nav {
+      height: 14vh;
+    }
+    
+    ul li a {
+      margin: 0px 0px 0px 30px;
+    }
+  
+    .left-nav, .right-nav ul {
+      margin: 10px 0px 0px 0px;
+    }
+    .footer {
+        height: 46vh;
+        margin: 80px 0px 0px;
+      }
+    
+      .footer-wrapper {
+        grid-template-columns: 320px 320px 1fr;
+      } 
+    
+      .contact-wrapper {
+        height: 27vh;
+      }  
+      .footer {
+        background-color: #34A3C1;
+        height: 30vh;
+        margin: 80px 0px 0px;
+      }
+      
+      .footer-wrapper {
+        display: grid;
+        grid-template-columns: 360px 360px 1fr;
+      } 
+      .footer-center {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      
+      .f-left ul li {
+        list-style-type: none;
+      }
+      
+      .f-left ul li a{
+        color: #000000;
+      }
+      .f-left ul li a:hover  {
+        color: #FFFFFF;
+      }
+      .wrapper {
+        background-color: #078EB2;
+      }
+      
+      .contact-wrapper {
+        /* border: 1px solid #ffffff; */
+        border-radius: 5px;
+        height: 22vh;
+      }
+      
+      .submit {
+        margin: 0px 0px 0px 8px;
+      }
+      
+      
+      @media screen and (max-width:1366px){
+        .nav {
+          height: 14vh;
+        }
+        
+        ul li a {
+          margin: 0px 0px 0px 30px;
+        }
+      
+        .left-nav, .right-nav ul {
+          margin: 10px 0px 0px 0px;
+        }
+      
+        .hero-section {
+          height: 60vh;
+        }
+        
+        .hero-cont {
+          padding: 160px 0px 0px;
+        }
+      
+        .about {
+          height: 55vh;
+        }
+      
+        .about-h3, .p-section {
+          font-family: 'Kalam', cursive;
+        }
+      
+        .about-img {
+          margin: 20px 0px 0px 70px;
+        }
+      
+        .about-img img {
+          width: 70%;
+          height: 40vh;
+          margin: 28px 0px 0px 10px;
+        }
+      
+        .services {
+          height: 55vh;
+        }
+      
+        .footer {
+          height: 46vh;
+          margin: 80px 0px 0px;
+        }
+      
+        .footer-wrapper {
+          grid-template-columns: 320px 320px 1fr;
+        } 
+      
+        .contact-wrapper {
+          height: 27vh;
+        }
+      }
+
