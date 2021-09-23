@@ -156,6 +156,16 @@ a {
 .cont1 > h6 {
   font-size: 13px;
 }
+
+.matters {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.people-matters {
+  padding: 80px 80px 0px;
+}
+
 #demo {
   background: linear-gradient(112deg, #ffffff 50%, #d6d6d6 50%);
   max-width: 900px;
