@@ -1,6 +1,8 @@
 .con{
     text-align: center;
-    color: aqua;
+    color:blueviolet;
+    opacity: 0.5;
+    
 }
  .body{
 background-image: url("/assets/gw.jpg");
@@ -146,6 +148,10 @@ background-image: url("/assets/gw.jpg");
     margin-top:50px;
     text-align:center;
     color:blue;
+}
+#test a{
+    color: #FFFFFF;
+    /* background-image: url("/assets/back.jpeg"); */
 }
   
  
