@@ -6,29 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>psychological check</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="phycology.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
 </head>
-<div class="container-fluid nav">
+<body>
+    <!-- nav-bar start -->
+<div class="container-fluid nav sticky-top">
     <div class="container nav-wrapper d-flex justify-content-between">
-        <div class="left-nav">
-            <h4 class="mt-4 h-minds"><span class="minds">Minds</span>Matter</h4>
-        </div>
-        <div class="right-nav m-4">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#"><button class="btn">Psychology Check</button></a></li>
-            </ul>
-        </div>
+      <div class="left-nav">
+        <h4 class="mt-4 h-minds text-dark"><span class="minds">Minds</span>Matter</h4>
+      </div>
+      <div class="right-nav m-4">
+        <ul class="">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about.html">About</a></li>
+          <li><a href="index.html#services.html">Services</a></li>
+          <li><a href="./css/blog.html">Blog</a></li>
+          <li><a href="./Account/login.html">Login</a></li>
+          <li>
+            <a href="phycology.html"><button class="btn active">Psychology Check</button></a>
+          </li>
+        </ul>
+      </div>
     </div>
+
 </div>
 
 <body>
@@ -47,6 +59,9 @@
                     <input type="text" id="email" class="form-control" name="email" placeholder="Email.."  autocorrect="off"required>
                 </div>
                 
+  </div>
+  <!-- nav-bar end -->
+
     
                 <div class="col col-12">
                     <textarea id="subject" id="comment" class="form-control" name="subject"
@@ -110,11 +125,108 @@
         </div>
 
     </section>
-    <section>
+    <!-- <section>
 
 
 
-    </section>
+
+    <---</section>
+
+
+    </section> -->
+
+    <!-- footer start -->
+    <footer class="container-fluid footer">
+        <div class="container footer-wrapper">
+          <div class="footer-left">
+            <h4 class="mt-4 h-minds text-dark"><span class="minds">Minds</span>Matter</h4>
+            <p class="p-footer">
+              Depression or anxiety, are real, common and treatable. And recovery is possible..
+            </p>
+            <p class="p-footer">
+              If you provide us your information and are <br /> 
+              in need of support,we will do our best to  <br /> respond.
+            </p>
+          </div>
+          <div>
+            <div class="center-cont">
+              <h6 class="text-center mt-5">Useful Links</h6>
+            </div>
+            <div class="footer-center">
+              <div class="f-left mt-2">
+                <ul>
+                  <li><a href="index.html#about">About US</a></li>
+                  <li><a href="index.html#services">Services</a></li>
+                  <li><a href="css/blog.html">Blog</a></li>
+                  <li><a href="phycology.html#contact">Contact</a></li>
+                  <li><a href="index.html#testimonials">Testimonials</a></li>
+                </ul>
+              </div>
+              <div class="f-right mt-3">
+                <div class="cont1">
+                  <i class="fa fa-map-marker"></i>
+                  <h6>Westlands</h6>
+                </div>
+                <div class="cont1">
+                  <i class="fa fa-phone"></i>
+                  <h6>+254 724 267 270</h6>
+                </div>
+                <div class="cont1">
+                  <i class="fa fa-envelope"></i>
+                  <h6>mindsmatter@info.com</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="footer-right">
+            <h5 class="text-center mt-3">We value feedback</h5>
+            <div class="contact-wrapper mt-2">
+              <form>
+                <div class="form-group p-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    placeholder="Enter your Full Name.."
+                  />
+                </div>
+                <div class="form-group p-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your Email.."
+                  />
+                </div>
+                <div class="form-group p-2">
+                  <textarea
+                    class="form-control"
+                    id="textArea"
+                    rows="3"
+                    placeholder="Your message here.."
+                  ></textarea>
+                </div>
+  
+                <button class="btn btn-outline-light submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="wrapper">
+        <div class="container d-flex justify-content-between footer-end">
+          <div class="rights mt-3">
+            <p>&copy;2021 Copyright | <span class="minds">Minds</span>Matter</p>
+          </div>
+          <div class="socials mt-3">
+            <i class="fa fa-facebook-square fa-2x p-2"></i>
+            <i class="fa fa-instagram fa-2x p-2"></i>
+            <i class="fa fa-twitter-square fa-2x p-2"></i>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
 
 </body>
     <script src="java.js"></script>
