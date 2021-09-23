@@ -62,8 +62,8 @@ background-image: url("/assets/gw.jpg");
   }
   
   .about{
-      background-image: url("/assets/gw.jpg");
-      margin: 0px 0px 220px;/* added bottom margin to create space between footer and content */
+      /* background-image: url("/assets/gw.jpg"); */
+      margin: 0px 0px 360px;/* added bottom margin to create space between footer and content */
   }
   
   .nav {
@@ -106,7 +106,9 @@ background-image: url("/assets/gw.jpg");
     color: #FFFFFF;
   }
   
-  
+  .footer {
+    height: 35vh;
+  }
   
   
   
