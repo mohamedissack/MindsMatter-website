@@ -72,11 +72,15 @@ function login() {
     //login form validation
     if (useremail != user.inputuseremail) {
         alert("Incorrect user email")
+
         return false;
 
     }
     if (loginpassword != user.inputpassword) {
         alert("incorrect password");
+        document.getElementById("l-email").style.border="2px solid red";
+        document.getElementById("l-email").focus();
+
         return false;
 
     }
