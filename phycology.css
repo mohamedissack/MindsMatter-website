@@ -133,3 +133,8 @@ background-image: url("/assets/gw.jpg");
     height:500px;
     margin-top:50px;
 }
+#submit{
+    margin-top:50px;
+    text-align:center;
+    color:blue;
+}
