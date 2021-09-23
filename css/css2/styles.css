@@ -30,6 +30,10 @@ ul li a {
     color: #FFFF0F;
 }
 
+.register {
+  margin: 0px 0px 336px;
+}
+
 @media screen and (max-width:1366px) {
     .nav {
         height: 14vh;
