@@ -1,3 +1,7 @@
+.con{
+    text-align: center;
+    color: aqua;
+}
  .body{
 background-image: url("/assets/gw.jpg");
  }
