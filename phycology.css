@@ -59,6 +59,7 @@ background-image: url("/assets/gw.jpg");
   
   .about{
       background-image: url("/assets/gw.jpg");
+      margin: 0px 0px 220px;/* added bottom margin to create space between footer and content */
   }
   
   .nav {
@@ -125,4 +126,4 @@ background-image: url("/assets/gw.jpg");
     .hero-cont {
       padding: 160px 0px 0px;
     }
-  }
+  }f
