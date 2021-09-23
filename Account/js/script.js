@@ -20,23 +20,41 @@ function register() {
         inputpassword,
         confirm
     };
+    
+
+   
+    //Register form validation
+
+    if (inputtedusername.length < 1){
+        
+        document.getElementById("name").style.border="2px solid red";
+        document.getElementById("name").focus();
+        alert("username is required");  
+        return false;
+    }
+    if (inputuseremail.length < 10){
+        alert("Email is too short");
+        return false;
+    }
+    if (inputpassword.length < 6){
+        alert("password too short");
+        return false;
+    }
+    if (confirm !=inputpassword){
+        alert("password do not match");
+        return false;
+    }
+
     localStorage.setItem("Person", JSON.stringify(person));
 
-    console.log(JSON.parse(retrievePerson.confirm));
-
-    if (inputtedusername)
-
-    window.location.href = "/login.html";
+    window.location.href = "login.html";
     return true;
+
+
     
     
 
 }
-
-
-
-
-
 
 
 
@@ -54,11 +72,15 @@ function login() {
     //login form validation
     if (useremail != user.inputuseremail) {
         alert("Incorrect user email")
+
         return false;
 
     }
     if (loginpassword != user.inputpassword) {
         alert("incorrect password");
+        document.getElementById("l-email").style.border="2px solid red";
+        document.getElementById("l-email").focus();
+
         return false;
 
     }
@@ -75,3 +97,9 @@ function login() {
 //     console.log(user.inputtedusername);
 //     document.getElementById('username').innerHTML = user.inputuseremail;
 // }
+
+
+
+// var lake = "victoria";
+// console.log(lake.length);
+// console.log(inputuseremail.length);
