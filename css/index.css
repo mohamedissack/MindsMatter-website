@@ -50,13 +50,17 @@ ul li a {
 }
 
 .about-nav {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   color: #000000;
-  height: 20vh;
+  height: 10vh;
 }
 
-.about-nav-cont h2{
-  margin: 0px 0px 0px;
+.row-card {
+  margin: 0px 40px 0px;
+}
+
+.team {
+  margin: 40px 60px 0px;
 }
 
 .hero-cont {
@@ -74,6 +78,9 @@ ul li a {
   margin-top: 80px;
 }
 
+.aboutUS-cont {
+  padding: 100px 0px 0px;
+}
 .about-h3, .p-section, .services-h3, .test-h {
   font-family: 'Kalam', cursive;
 }
@@ -337,4 +344,17 @@ a i {
   .contact-wrapper {
     height: 27vh;
   }
+
+  .about-nav {
+    height: 20vh;
+  }
+  
+  /* .row-card {
+    margin: 0px 40px 0px;
+  } */
+  
+  .team {
+    margin: 80px 60px 0px;
+  }
+  
 }
