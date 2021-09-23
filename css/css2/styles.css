@@ -30,6 +30,18 @@ ul li a {
     color: #FFFF0F;
 }
 
+.register{
+  margin: 0px 0px 336px;
+}
+
+.login {
+  margin: auto;
+}
+
+.login-wrapper {
+  margin: 516px 0px 0px;
+}
+
 @media screen and (max-width:1366px) {
     .nav {
         height: 14vh;
@@ -43,10 +55,19 @@ ul li a {
     .right-nav ul {
         margin: 10px 0px 0px 0px;
     }
+    .login-wrapper {
+      margin: 460px 0px 0px;
+    }
+
+    .register{
+      margin: 0px 0px 276px;
+    }
 }
 
 .login {
-   background-color: grey;
+   /* background-color: grey; */
+   height:100%;
+   margin: 20px:
     
    
     

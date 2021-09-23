@@ -1,3 +1,7 @@
+.con{
+    text-align: center;
+    color: aqua;
+}
  .body{
 background-image: url("/assets/gw.jpg");
  }
@@ -58,7 +62,8 @@ background-image: url("/assets/gw.jpg");
   }
   
   .about{
-      background-image: url("/assets/gw.jpg");
+      /* background-image: url("/assets/gw.jpg"); */
+      margin: 0px 0px 360px;/* added bottom margin to create space between footer and content */
   }
   
   .nav {
@@ -101,7 +106,9 @@ background-image: url("/assets/gw.jpg");
     color: #FFFFFF;
   }
   
-  
+  .footer {
+    height: 35vh;
+  }
   
   
   
@@ -126,3 +133,19 @@ background-image: url("/assets/gw.jpg");
       padding: 160px 0px 0px;
     }
   }
+ 
+  
+  #form{
+    background-image:url("/assets/test.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+    margin-top:50px;
+}
+#submit{
+    margin-top:50px;
+    text-align:center;
+    color:blue;
+}
+  
+ 
